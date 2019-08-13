@@ -1,2 +1,5 @@
 .container {
+  width: 600px;
+  text-align: left;
+  horizontal-align: center;
 }

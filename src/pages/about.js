@@ -3,8 +3,8 @@ import Header from "../components/header"
 import Container from "../components/container"
 
 export default () => (
-  <Container>
+  <div>
     <Header headerText='About' />
     <p>Such wow. Very React.</p>
-  </Container>
+  </div>
 )

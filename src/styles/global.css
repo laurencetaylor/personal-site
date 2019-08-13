@@ -3,6 +3,7 @@ html {
   font-family: helvetica, sans-serif;
   color: black;
   text-align: center;
+  overflow-y: scroll;
 }
 
 a:link {
@@ -18,4 +19,10 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: gray;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
 }

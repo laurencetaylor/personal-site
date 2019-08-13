@@ -3,7 +3,7 @@ import Header from "../components/header"
 
 export default () => (
   <div>
-    <Header headerText='Laurence Taylor' />
-    <p>My name is LT</p>
+    <Header headerText="Contact" />
+    <p>Send us a message!</p>
   </div>
 )

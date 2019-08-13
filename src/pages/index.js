@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Header from "../components/header"
 import Container from "../components/container"
 
@@ -7,9 +8,9 @@ export default () => (
     <Header headerText='Laurence Taylor' />
     <p>
       <Container>
-        I graduated from Queen Mary University of London in 2017 with a Bachelor of Science in Geography.
-        I recently completed Makers, a highly selective coding school in London, and sit on the Youth Advisory Panel of Global Action Plan.
-        In my spare time I enjoy playing five-a-side football, reading, and playing guitar.
+        I'm a London based full-stack developer and former fraud analyst.
+        I graduated from <a href='https://www.qmul.ac.uk/'>Queen Mary University of London</a> in 2017 and recently completed <a href='https://makers.tech/'>Makers</a>, a highly selective coding bootcamp in London.
+        In my spare time I enjoy playing five-a-side football, reading, and practicing guitar.
       </Container>
     </p>
   </div>

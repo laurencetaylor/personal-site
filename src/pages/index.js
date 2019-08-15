@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Footer from "../components/footer"
 import Container from "../components/container"
 
 export default () => (
@@ -16,5 +17,6 @@ export default () => (
         <p>I am available immediately as a junior software developer.</p>
       </div>
     </Container>
+    <Footer />
   </div>
 )

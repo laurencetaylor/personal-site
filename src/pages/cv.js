@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Footer from "../components/footer"
 import Container from "../components/container"
 
 export default () => (
   <div className='main'>
     <Header headerText='cv' headerId='cv' />
     <Container>
-      <center><a href='#projects'>Projects</a> | <a href='#skills'>Skills</a> | <a href='#education'>Education</a> | <a href='#work-experience'>Work Experience</a></center>
       <h1 id='projects'>Projects</h1>
       <table>
         <tr>
@@ -111,8 +111,7 @@ export default () => (
       <p><strong>House of MinaLima</strong> (June - September 2016)</p>
       <p><i>Gallery Assistant</i></p>
       <p>Interacted with hundreds of visitors daily while answering customer questions, initiating conversation, and helping to sell prints.</p>
-
-      <center><a href='#projects'>Projects</a> | <a href='#skills'>Skills</a> | <a href='#education'>Education</a> | <a href='#work-experience'>Work Experience</a></center>
     </Container>
+    <Footer />
   </div>
 )

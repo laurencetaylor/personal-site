@@ -4,7 +4,7 @@ import Container from "../components/container"
 
 export default () => (
   <div className='main'>
-    <Header headerText='Contact' headerId='contact' />
+    <Header headerText='contact' headerId='contact' />
     <Container>
     <center>
       <form method='post' action='https://formspree.io/contact@laurencetaylor.co.uk'>

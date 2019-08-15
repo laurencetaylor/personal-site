@@ -5,7 +5,7 @@ import Container from "../components/container"
 
 export default () => (
   <div className='main'>
-    <Header headerText='Laurence Taylor' headerId='index' />
+    <Header headerText='laurence taylor' headerId='index' />
     <Container>
       <div className='clearfix'>
         <img src={ require('../imgs/laurence-taylor.jpg') } id='laurence-taylor' />

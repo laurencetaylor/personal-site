@@ -7,7 +7,8 @@ html {
   font-family: helvetica, sans-serif;
   color: white;
   text-align: center;
-  overflow-y: scroll;
+  /* overflow-y: overlay; */
+  /* overflow-x: hidden; */
 }
 
 a:link {
@@ -71,10 +72,11 @@ a:visited {
   top: 0; /* Position the navbar at the top of the page */
   left: 0;
   width: 100%; /* Full width */
+  padding-bottom: 10px;
 }
 
 .main {
-  margin-top: 125px; /* Add a top margin to avoid content overlay */
+  margin-top: 135px; /* Add a top margin to avoid content overlay */
 }
 
 table, th, td {
@@ -131,4 +133,8 @@ input[type=submit] {
   margin: 2px;
   text-align: center;
   font-size: 16px;
+}
+
+div {
+  vertical-align: baseline;
 }

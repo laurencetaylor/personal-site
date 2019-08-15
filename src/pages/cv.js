@@ -5,7 +5,7 @@ import Container from "../components/container"
 
 export default () => (
   <div className='main'>
-    <Header headerText='CV' headerId='cv' />
+    <Header headerText='cv' headerId='cv' />
     <Container>
       <center><a href='#projects'>Projects</a> | <a href='#skills'>Skills</a> | <a href='#education'>Education</a> | <a href='#work-experience'>Work Experience</a></center>
       <h1 id='projects'>Projects</h1>

@@ -9,12 +9,12 @@ export default () => (
     <Container>
     <center>
       <form method='post' action='https://formspree.io/contact@laurencetaylor.co.uk'>
-        <span className='form-text'>Email</span>
+        Email
         <br/>
         <input type='email' name='_replyto' id='email-box' />
         <br/>
         <br/>
-        <span className='form-text'>Message</span>
+        Message
         <br/>
         <textarea name='body' id='body-box' />
         <br/>

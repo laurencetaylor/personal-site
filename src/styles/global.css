@@ -27,3 +27,13 @@ table, th, td {
   border-collapse: collapse;
   padding: 10px;
 }
+
+#laurence-taylor {
+  width: 150px;
+  padding: 0 15px;
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}

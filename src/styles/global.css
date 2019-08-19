@@ -1,9 +1,9 @@
 html {
   background-color: white;
-  font-family: helvetica, sans-serif;
+  font-family: futura, helvetica, sans-serif;
   color: white;
   overflow-y: scroll;
-  background-image: url("../imgs/background-pattern.jpg");
+  background-image: url("../imgs/background-pattern.png");
   background-size: 50%;
 }
 
@@ -41,19 +41,19 @@ a:visited {
 #cyan-text:hover {
   text-decoration: none;
   color: black;
-  background-color: #bfffff;
+  background-color: #80ffff;
 }
 
 #magenta-text:hover {
   text-decoration: none;
   color: black;
-  background-color: #ffbfff;
+  background-color: #ff80ff;
 }
 
 #yellow-text:hover {
   text-decoration: none;
   color: black;
-  background-color: #ffffbf;
+  background-color: #ffff80;
 }
 
 #key-text:hover {
@@ -87,6 +87,9 @@ a:visited {
   color: black;
   text-align: center;
   opacity: 0.95;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .index {

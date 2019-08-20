@@ -21,7 +21,11 @@
 * Run `gatsby develop`, then open a web browser and visit localhost:8000.
 
 ![index screenshot](src/imgs/screenshot-1.png)
+
+
 ![cv screenshot](src/imgs/screenshot-2.png)
+
+
 ![contact screenshot](src/imgs/screenshot-3.png)
 
 ## Approach

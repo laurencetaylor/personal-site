@@ -34,6 +34,8 @@
 
 * I didn't test for this project as there is no business logic. I could have feature tested, but given the simplicity of the site I preferred to check the page manually.
 
+* I used ESLint to ensure I conformed to style guides.
+
 ## Thoughts
 
 * It would be nice to make the site more mobile-friendly. I'll try working on this next.

@@ -3,6 +3,10 @@
     width: 80%;
     padding: 20px;
   }
+
+  table {
+    font-size: 9px;
+  }
 }
 
 @media (min-width: 1001px) {

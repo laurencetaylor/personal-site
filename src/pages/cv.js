@@ -23,6 +23,12 @@ export default () => (
           <td>Pytest, ESLint, Pylama, Travis CI</td>
         </tr>
         <tr>
+          <td><a href='https://github.com/LaurenceTaylor/personal-site' target='_blank' rel='noopener noreferrer'>Personal Site</a></td>
+          <td>Independently built a personal website using unfamiliar technology. Practiced styling a website from scratch</td>
+          <td>GatsbyJS, HTML/ CSS</td>
+          <td>ESLint, Surge</td>
+        </tr>
+        <tr>
           <td><a href='https://github.com/LaurenceTaylor/GildedRose-Refactoring-Kata' target='_blank' rel='noopener noreferrer'>Gilded Rose</a></td>
           <td>A solution to the Gilded Rose refactoring kata</td>
           <td>Ruby</td>

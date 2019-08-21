@@ -23,25 +23,15 @@ a:visited {
   margin: 2px;
 }
 
-#magenta-text {
-  padding: 2px;
-  margin: 2px;
-}
-
-#yellow-text {
-  padding: 2px;
-  margin: 2px;
-}
-
-#key-text {
-  padding: 2px;
-  margin: 2px;
-}
-
 #cyan-text:hover {
   text-decoration: none;
   color: black;
   background-color: #80ffff;
+}
+
+#magenta-text {
+  padding: 2px;
+  margin: 2px;
 }
 
 #magenta-text:hover {
@@ -50,10 +40,20 @@ a:visited {
   background-color: #ff80ff;
 }
 
+#yellow-text {
+  padding: 2px;
+  margin: 2px;
+}
+
 #yellow-text:hover {
   text-decoration: none;
   color: black;
   background-color: #ffff80;
+}
+
+#key-text {
+  padding: 2px;
+  margin: 2px;
 }
 
 #key-text:hover {
@@ -77,21 +77,6 @@ a:visited {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-#footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  padding: 2px;
-  color: black;
-  text-align: center;
-  opacity: 0.95;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-}
-
 .index {
   color: #80ffff;
 }
@@ -108,13 +93,33 @@ a:visited {
   padding: 175px 0;
 }
 
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 2px;
+  color: black;
+  text-align: center;
+  opacity: 0.95;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.fa {
+  padding: 2px;
+  margin: 2px;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
 }
 
-#laurence-taylor {
+#laurence-taylor-picture {
   width: 150px;
   padding: 0 15px;
   float: right;
@@ -145,11 +150,6 @@ textarea {
   box-sizing: border-box;
 }
 
-.fa {
-  padding: 2px;
-  margin: 2px;
-}
-
 input[type=submit] {
   border: solid;
   color: black;
@@ -157,4 +157,5 @@ input[type=submit] {
   margin: 2px;
   text-align: center;
   font-size: 16px;
+  font-family: futura, helvetica, sans-serif;
 }

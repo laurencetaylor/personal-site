@@ -19,5 +19,14 @@ export default props => (
     <Link to="/contact" id="yellow-text">
       CONTACT
     </Link>
+    <span className={props.headerId}>|</span>{" "}
+    <a
+      href="https://medium.com/@LaurenceTaylor"
+      id="key-text"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      BLOG
+    </a>
   </div>
 )
